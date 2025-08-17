@@ -1,0 +1,33 @@
+{
+    "mcpServers":{
+  
+       "awslabs.aws-documentation-mcp-server": {
+        "command": "uvx",
+        "args": ["awslabs.aws-documentation-mcp-server@latest"],
+        "env": {
+          "FASTMCP_LOG_LEVEL": "ERROR",
+          "AWS_DOCUMENTATION_PARTITION": "aws"
+        },
+        "disabled": false,
+        "autoApprove": []
+      },
+      "fetch": {
+        "command": "uvx",
+        "args": ["mcp-server-fetch"],
+        "env": {
+           "FASTMCP_LOG_LEVEL": "ERROR"
+         },
+         "disabled": false,
+         "autoApprove": []
+      },
+      "strands": {
+      "command" : "uvx",
+      "args": ["strands-agents-mcp-server"],
+      "env": {
+           "FASTMCP_LOG_LEVEL": "ERROR"
+         },
+         "disabled": false,
+         "autoApprove": []
+       }
+    }
+  }
