@@ -39,14 +39,9 @@ strands-agents-workshop/
 │   ├── 05_advanced_examples.py
 │   ├── 06_multi_agent_systems.py
 │   ├── 07_mcp_integration.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── config.py
-│       └── helpers.py
-├── resources/               # Additional resources
-├── docs/                   # Documentation
-│   ├── TROUBLESHOOTING.md
-│   └── API_REFERENCE.md
+│   ├── mcp.json
+│   └── README.md
+├── .env.example            # Environment variables template
 └── venv/                   # Virtual environment
 ```
 
