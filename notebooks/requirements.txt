@@ -1,0 +1,24 @@
+# Core Strands Agents
+strands-agents
+strands-agents-tools
+
+# AWS Integration
+boto3
+botocore
+
+# Web Search (for DuckDuckGo)
+duckduckgo-search
+
+# Ollama
+ollama
+
+# MCP Integration
+mcp
+
+# Memory (Optional - for 04_memory_agents.py)
+mem0ai
+opensearch-py
+
+# Jupyter Support (Optional - for notebooks)
+jupyter
+ipykernel
